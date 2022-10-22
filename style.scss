@@ -16,6 +16,9 @@
     text-align: center;
     display: table;
     margin-bottom: 30px;
+    position: sticky;
+    top: 0px;
+
     h1{
         font-family: sans-serif;
         font-size: 20px;       
@@ -45,6 +48,42 @@ section{
     h2{
         margin-bottom: 20px;
     }
+}
+/*----------------Contenu Explicatif---------------*/
+.contentGrid{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 33% 34% 33%;
+    p{
+        margin-bottom: 10px;
+    }
+
+    .contentBlock1{
+        text-align: center;
+        background-color: purple;
+        padding: 30px;
+        grid-column: 2/2;
+    }
+
+    .contentBlock2{
+        text-align: center;
+        background-color: red;
+        padding: 30px;
+        grid-column: 2/2;
+    }
+
+    .contentBlock3{
+        text-align: center;
+        background-color: darkgreen;
+        padding: 30px;
+        grid-column: 2/2;
+
+    }
+    @media screen and (max-width: 768px){
+
+    }
+
+
 }
 
 
