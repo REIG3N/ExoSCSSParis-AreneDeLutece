@@ -11,12 +11,14 @@
   }
 }
 
+/*----------------Nabvar & Titre---------------*/
 .navbar {
   width: 100%;
   height: 50px;
   background: sandybrown;
   text-align: center;
   display: table;
+  margin-bottom: 30px;
 }
 .navbar h1 {
   font-family: sans-serif;
@@ -29,6 +31,24 @@
     height: 60px;
     background-color: greenyellow;
   }
+}
+
+/*----------------Introduction---------------*/
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presFlex {
+  margin-bottom: 30px;
+  background-color: aqua;
+  width: 80vw;
+  padding: 30px;
+  text-align: center;
+}
+.presFlex h2 {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
