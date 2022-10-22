@@ -48,6 +48,17 @@ section{
     h2{
         margin-bottom: 20px;
     }
+
+    img{
+        margin-top: 15px;
+        width: 50vw;
+    }
+    @media screen and (max-width: 767px)
+    {
+        img{
+            width: 200px;
+        }
+    }
 }
 /*----------------Contenu Explicatif---------------*/
 .contentGrid{

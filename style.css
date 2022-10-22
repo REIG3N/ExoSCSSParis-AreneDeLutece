@@ -19,7 +19,6 @@
   text-align: center;
   display: table;
   margin-bottom: 30px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0px;
 }
@@ -53,6 +52,15 @@ section {
 .presFlex h2 {
   margin-bottom: 20px;
 }
+.presFlex img {
+  margin-top: 15px;
+  width: 50vw;
+}
+@media screen and (max-width: 767px) {
+  .presFlex img {
+    width: 200px;
+  }
+}
 
 /*----------------Contenu Explicatif---------------*/
 .contentGrid {
@@ -80,4 +88,6 @@ section {
   background-color: darkgreen;
   padding: 30px;
   grid-column: 2/2;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
